@@ -45,4 +45,4 @@ func setup(bus, movement: Movement, targeting: Targeting, vision: Vision, collis
 	collision_avoidence.avoidance_distance = shape.get_radius() as int
 	
 	self.add_to_group("seekers")
-	EventsBus.emit_signal("seeker_created", self)
+	bus.emit_signal("seeker_created", self)

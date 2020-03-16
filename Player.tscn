@@ -1,7 +1,7 @@
 [gd_scene load_steps=4 format=2]
 
 [ext_resource path="res://src/Handlers/Player.gd" type="Script" id=1]
-[ext_resource path="res://assets/pixel_ship.png" type="Texture" id=2]
+[ext_resource path="res://assets/pixel_ship_green_small_2.png" type="Texture" id=2]
 
 [sub_resource type="ConvexPolygonShape2D" id=1]
 points = PoolVector2Array( 0, -55, 45, 15, 45, 50, -45, 50, -45, 15 )
